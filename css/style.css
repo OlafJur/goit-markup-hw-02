@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.nav-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+.web {
+  color: #2196f3;
+}
+.nav {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+.top-contact {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+  cursor: pointer;
+}
+.nav:visited {
+  color: black;
+}
+
+.top-contact:hover,
+.top-contact:focus {
+  color: #2196f3;
+  cursor: pointer;
+}
+/*main*/
+.top {
+  color: #ffffff;
+  background: #2f303a;
+}
+.top-txt {
+  font-weight: 900;
+  font-size: 44px;
+}
+.top-button {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.mid-txt {
+  font-size: 700;
+  font-size: 14px;
+}
+.mid-long {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+}
+.mid-pictures-txt {
+  font-weight: 700;
+  font-size: 36px;
+}
+.team-text {
+  font-weight: 700;
+  font-size: 36px;
+}
+.john-doe {
+  font-weight: 500;
+  font-size: 16px;
+}
+.job {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
+.bottom {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background: #2f303a;
+  text-decoration: none;
+}
+.bottom-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.bottom-email {
+  color: #ffffff(68%);
+}
+.bottom-phone {
+  color: #ffffff(68%);
+}
