@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 .nav-logo {
   font-family: "Raleway", sans-serif;
@@ -36,7 +37,7 @@ body {
   color: #2196f3;
   cursor: pointer;
 }
-/*main*/
+/*pierwsza strona main*/
 .top {
   color: #ffffff;
   background: #2f303a;
@@ -63,6 +64,9 @@ body {
 .mid-pictures-txt {
   font-weight: 700;
   font-size: 36px;
+}
+.team {
+  background: #f5f4fa;
 }
 .team-text {
   font-weight: 700;
@@ -94,4 +98,27 @@ body {
 }
 .bottom-phone {
   color: #ffffff(68%);
+}
+/*druga strona*/
+.filters {
+  font-weight: 500;
+  font-size: 16px;
+}
+.filter-button {
+  background-color: #f5f4fa;
+}
+.filter-button:hover,
+.filer-button:focus {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.picture-text {
+  font-weight: 700;
+  font-size: 18px;
+}
+.smoll-txt {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
