@@ -1,23 +1,25 @@
 body {
   font-family: "Roboto", sans-serif;
+}
+.top-nav:visited {
   text-decoration: none;
+}
+.top-nav {
+  list-style: none;
 }
 .nav-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  text-decoration: none;
 }
 .web {
   color: #2196f3;
 }
 .nav {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
 }
 .top-contact {
-  text-decoration: none;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -49,8 +51,15 @@ body {
 .top-button {
   font-weight: 700;
   font-size: 16px;
-  background-color: #2196f3;
+  background: #2196f3;
   color: #ffffff;
+}
+.top-button:hover,
+.top-button:focus {
+  cursor: pointer;
+}
+.mid-pic {
+  list-style: none;
 }
 .mid-txt {
   font-size: 700;
@@ -64,6 +73,9 @@ body {
 .mid-pictures-txt {
   font-weight: 700;
   font-size: 36px;
+}
+.team-john {
+  list-style: none;
 }
 .team {
   background: #f5f4fa;
@@ -88,6 +100,9 @@ body {
   background: #2f303a;
   text-decoration: none;
 }
+.bottom-adr {
+  font-style: normal;
+}
 .bottom-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -98,6 +113,10 @@ body {
 }
 .bottom-phone {
   color: #ffffff(68%);
+}
+.bottom-info {
+  list-style-type: none;
+  text-decoration: none;
 }
 /*druga strona*/
 .filters {
