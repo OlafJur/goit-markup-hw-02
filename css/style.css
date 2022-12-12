@@ -1,7 +1,23 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.top-nav:visited {
+.top-nav-link-logo {
+  text-decoration: none;
+}
+.top-nav-link-logo:visited {
+  text-decoration: none;
+  color: black;
+}
+.top-nav-link:visited {
+  text-decoration: none;
+  color: black;
+}
+.top-nav-link {
+  text-decoration: none;
+  color: black;
+}
+.top-nav-link-contact {
+  color: #757575;
   text-decoration: none;
 }
 .top-nav {
@@ -23,19 +39,17 @@ body {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
+  text-align: right;
 }
 
-.nav:hover,
-.nav:focus {
+.top-nav-link:hover,
+.top-nav-link:focus {
   color: #2196f3;
   cursor: pointer;
 }
-.nav:visited {
-  color: black;
-}
 
-.top-contact:hover,
-.top-contact:focus {
+.top-nav-link-contact:hover,
+.top-nav-link-contact:focus {
   color: #2196f3;
   cursor: pointer;
 }
@@ -43,6 +57,7 @@ body {
 .top {
   color: #ffffff;
   background: #2f303a;
+  text-align: center;
 }
 .top-txt {
   font-weight: 900;
@@ -54,6 +69,7 @@ body {
   background: #2196f3;
   color: #ffffff;
 }
+
 .top-button:hover,
 .top-button:focus {
   cursor: pointer;
@@ -73,6 +89,7 @@ body {
 .mid-pictures-txt {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
 }
 .team-john {
   list-style: none;
@@ -83,6 +100,7 @@ body {
 .team-text {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
 }
 .john-doe {
   font-weight: 500;
@@ -100,28 +118,35 @@ body {
   background: #2f303a;
   text-decoration: none;
 }
-.bottom-adr {
+.bottom-adress {
   font-style: normal;
+  text-decoration: none;
 }
 .bottom-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
 }
-.bottom-email {
-  color: #ffffff(68%);
+.bot-nav-link-contact {
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
 }
-.bottom-phone {
-  color: #ffffff(68%);
+.bot-nav-link-contact:link,
+.bot-nav-link-contact:focus {
+  color: #757575;
+
+  text-decoration: none;
+  font-style: normal;
 }
 .bottom-info {
   list-style-type: none;
-  text-decoration: none;
 }
 /*druga strona*/
 .filters {
   font-weight: 500;
   font-size: 16px;
+  list-style: none;
 }
 .filter-button {
   background-color: #f5f4fa;
@@ -131,6 +156,9 @@ body {
   cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
+}
+.main-pictures {
+  list-style: none;
 }
 .picture-text {
   font-weight: 700;
