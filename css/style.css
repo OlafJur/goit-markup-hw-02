@@ -1,5 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--main-font-color);
+}
+:root {
+    --primary-color: #2196f3;
+    --main-font-color: #212121;
+    --scnd-font-color: #757575;
+    --main-background: #2f303a;
+    --scnd-background: #f5f4fa;
 }
 .top-logo {
     text-decoration: none;
@@ -18,46 +26,56 @@ body {
     color: black;
 }
 .top-nav-link-contact {
-    color: #757575;
     text-decoration: none;
+    color: var(--primary-color);
 }
 .top-nav {
     list-style: none;
 }
-.top-logo {
+.logo {
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
+    color: var(--primary-color);
 }
-.web {
-    color: #2196f3;
+.studio-black {
+    color: black;
+}
+.studio-white {
+    color: white;
 }
 .nav {
     font-weight: 500;
     font-size: 14px;
 }
 .top-contact {
-    color: #757575;
+    color: var(--scnd-font-color);
     font-weight: 500;
     font-size: 14px;
+    text-align: right;
+    text-decoration: none;
     text-align: right;
 }
 
 .top-nav-link:hover,
 .top-nav-link:focus {
-    color: #2196f3;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
-.top-nav-link-contact:hover,
-.top-nav-link-contact:focus {
-    color: #2196f3;
+.top-contact:hover,
+.top-contact:focus {
+    color: var(--primary-color);
     cursor: pointer;
+}
+.top-contact:visited {
+    color: var(--scnd-font-color);
 }
 /*pierwsza strona main*/
 .top {
-    color: #ffffff;
-    background: #2f303a;
+    color: white;
+    background: var(--main-background);
     text-align: center;
 }
 .top-txt {
@@ -67,8 +85,8 @@ body {
 .top-button {
     font-weight: 700;
     font-size: 16px;
-    background: #2196f3;
-    color: #ffffff;
+    background: var(--primary-color);
+    color: white;
 }
 
 .top-button:hover,
@@ -83,7 +101,7 @@ body {
     font-size: 14px;
 }
 .mid-long {
-    color: #757575;
+    color: var(--scnd-font-color);
     font-weight: 400;
     font-size: 14px;
 }
@@ -96,7 +114,7 @@ body {
     list-style: none;
 }
 .team {
-    background: #f5f4fa;
+    background: var(--scnd-background);
 }
 .team-text {
     font-weight: 700;
@@ -108,15 +126,15 @@ body {
     font-size: 16px;
 }
 .job {
-    color: #757575;
+    color: var(--scnd-font-color);
     font-weight: 400;
     font-size: 16px;
 }
 .bottom {
     font-weight: 400;
     font-size: 14px;
-    color: #ffffff;
-    background: #2f303a;
+    color: white;
+    background: var(--main-background);
     text-decoration: none;
 }
 .bottom-adress {
@@ -135,13 +153,13 @@ body {
     color: white;
 }
 .bot-nav-link-contact {
-    color: #757575;
+    color: var(--scnd-font-color);
     text-decoration: none;
     font-style: normal;
 }
 .bot-nav-link-contact:hover,
 .bot-nav-link-contact:focus {
-    color: #2196f3;
+    color: var(--primary-color);
     cursor: pointer;
     text-decoration: none;
     font-style: normal;
@@ -156,13 +174,13 @@ body {
     list-style: none;
 }
 .filter-button {
-    background-color: #f5f4fa;
+    background-color: var(--scnd-background);
 }
 .filter-button:hover,
 .filter-button:focus {
     cursor: pointer;
-    background-color: #2196f3;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: white;
 }
 .main-pictures {
     list-style: none;
@@ -174,5 +192,5 @@ body {
 .smoll-txt {
     font-size: 16px;
     font-weight: 400;
-    color: #757575;
+    color: var(--scnd-font-color);
 }
